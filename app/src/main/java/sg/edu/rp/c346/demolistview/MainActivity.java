@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         //  each row and the food String array together
         aa = new FoodAdapter(this, R.layout.layout, food);
         lv.setAdapter(aa);
+        
 
     }
 }
